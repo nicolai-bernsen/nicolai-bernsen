@@ -24,6 +24,14 @@ Requires the `handle` MCP server (`claude mcp add handle -- uvx handle-mcp@lates
 - Plan ~5 dinners, leave slack for leftovers and rugbrød nights, then breakfast/lunch basics. Ask how many dinners only if the user's prompt implies otherwise.
 
 ## Organic (øko) rule: cheap, but øko for key items
+Learned from the user's offer test (Nov 2026): **non-øko meat, veg and fresh offers are a hard no**, however big the discount. Do not suggest them.
+- **Meat/fish:** øko only. If the øko meat pushes the plan over budget, prefer **vegetarian dinners** or ask whether to raise the budget; never fall back to non-øko meat.
+- **Fruit & veg:** øko almost always. Exceptions where non-øko is fine: avocado and similar thick-skinned items.
+- **Baby:** always øko.
+- **Frozen øko veg** (e.g. REMA 1000's øko wok veg) are welcome for quick dinners.
+- **Fresh pasta is not worth it**: skip it even on offer.
+- **Butter** is the one stated exception: non-øko Lurpak at ≥40% off (e.g. 12 kr for 200 g) is OK to stock up on (freezable).
+- **Dried fruit:** øko rosiner (raisins) at ~40% off are OK to stock up on; check other dried fruit and nuts with the user first.
 Must be øko when an øko candidate exists (`oeko: true`): **dairy and eggs, meat and fish, fruit and veg**. Everything else: cheapest `line_total`.
 - Oats and **oat milk are staples** eaten nearly daily: always on the list; choose by lowest `unit_price`, øko if the premium is small (say if it is large).
 - Baby-porridge ingredients (veg, buckwheat flour "boghvedemel", quinoa, oats): øko preferred, take the list from the `baby-food` skill's current plan if available.
@@ -38,6 +46,15 @@ Must be øko when an øko candidate exists (`oeko: true`): **dairy and eggs, mea
 6. **Present** (and stop): meal plan, the chosen store and why, total vs. 1,000 kr budget, runner-up store and the difference, øko premiums, `sure:false` lines, substitutions, delivery/pickup options. Ask for a yes or edits.
 7. **On yes:** `set_cart_quantities` in the chosen store only. Then `get_cart` to verify totals against what was approved, report mismatches, and tell the user to open the store, check the cart, pick a time and pay. Close other clients of that store first.
 8. **After approval,** update `memory.md` (see below) and mention what you changed.
+
+## Bread and oats
+- Bread: the household likes **rugbrød from Gilleleje Havn**. Look for it first (nemlig/BilkaToGo; REMA 1000 has no hit). Open to alternatives only if they are **healthier** (wholegrain, low sugar/salt), not just cheaper. Cheap offer bread (e.g. Kohberg at 10 kr) is not automatically wanted.
+- Oats: compare real unit price, not offer price. REMA 1000's own havregryn is 7.95 kr/kg (øko 9.95), so a 10 kr/kg branded offer is not a bargain.
+
+## Tool tips (observed)
+- `list_offers` works without login for nemlig (about 90 offers, many meat) and REMA 1000 (about 25, with `offer_until`). Offers are not a price comparison: check the normal price of the staple you actually buy.
+- `search_products` for nemlig and BilkaToGo needs login; REMA 1000 works without. REMA's search is fuzzy: use one short keyword (`havregryn`, `havredrik`, `æg`), not a phrase.
+- Sort with `sort: unit_price` when comparing staples.
 
 ## Learning from past purchases (cadence)
 - Use `get_orders` for history. Keep durable knowledge in `memory.md`: item, typical pack size, **last bought**, **usual interval**, preferred brand/øko choice, stockpile notes.
