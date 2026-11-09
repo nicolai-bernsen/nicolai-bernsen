@@ -47,8 +47,16 @@ Must be øko when an øko candidate exists (`oeko: true`): **dairy and eggs, mea
 7. **On yes:** `set_cart_quantities` in the chosen store only. Then `get_cart` to verify totals against what was approved, report mismatches, and tell the user to open the store, check the cart, pick a time and pay. Close other clients of that store first.
 8. **After approval,** update `memory.md` (see below) and mention what you changed.
 
+## Product judgment (the user wants YOU to decide)
+The user does not want to specify products each week. **Make the product and recipe choices yourself**, then show a one-line reason per non-obvious pick so they can overrule. Ask only about real trade-offs (e.g. øko meat vs budget).
+- **Think beyond the cheapest line:** unit price, øko, pack size vs 2 adults + baby (waste, shelf life, freezability), brand quality, and how healthy it is (wholegrain, short ingredient list, low sugar/salt). Tool data has no ingredient lists: judge from name, brand, category and size, and say when you are unsure.
+- **Own-brand is welcome:** the user finds REMA 1000's own brand typically quite nice. Prefer store own-brand when it is clearly cheaper and not noticeably worse; do not default to premium brands.
+- **Pair recipes with products:** plan meals from the good-value products you found (offers, frozen øko veg, staples), not the other way round. Cook-once, reuse leftovers, and flag baby-suitable portions to the `baby-food` skill.
+- **Offers:** only count an offer if the user would have bought the product anyway and the price beats the best normal alternative. Say "would you have bought it?" in your reasoning, and drop the offer if the answer is no.
+- Stay inside the hard rules and the øko rules above; judgment never overrides a stated hard no.
+
 ## Bread and oats
-- Bread: the household likes **rugbrød from Gilleleje Havn**. Look for it first (nemlig/BilkaToGo; REMA 1000 has no hit). Open to alternatives only if they are **healthier** (wholegrain, low sugar/salt), not just cheaper. Cheap offer bread (e.g. Kohberg at 10 kr) is not automatically wanted.
+- Bread: the household likes **rugbrød from Gilleleje Havn**. **REMA 1000 carries it** (Schulstad "Signaturbrød": 375 g 15.25 kr, 750 g 26.50 kr = 35 kr/kg, checked 2026-11-09). Use judgment on alternatives only if they are **healthier** (wholegrain, low sugar/salt), not just cheaper. Cheap offer bread (e.g. Kohberg at 10 kr) is not automatically wanted. Reference cheaper own-brand options to compare: REMA øko solsikkerugbrød 600 g 9.75 kr (16 kr/kg), REMA mørkt rugbrød 500 g 5.95 kr.
 - Oats: compare real unit price, not offer price. REMA 1000's own havregryn is 7.95 kr/kg (øko 9.95), so a 10 kr/kg branded offer is not a bargain.
 
 ## Tool tips (observed)
