@@ -1,9 +1,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0F2027,50:203A43,100:2C5364&text=Nicolai%20Bernsen&fontColor=ffffff&fontSize=42&fontAlignY=40&desc=Building%20my%20own%20Jarvis%20-%20AI%20that%20does%20real%20work&descSize=15&descAlignY=60&animation=fadeIn" alt="Nicolai Bernsen: building my own Jarvis, AI that does real work" width="100%" />
 
-I build AI that does real work.
+I'm a senior data specialist at the Novo Nordisk Foundation in Copenhagen, and I build AI that does real work.
 After hours I'm building my own Jarvis: a voice assistant I talk to through my AirPods all day.
 
-**[nicolai-bernsen.pages.dev](https://nicolai-bernsen.pages.dev)** · [LinkedIn](https://www.linkedin.com/in/nicolai-bernsen/)
+**[LinkedIn](https://www.linkedin.com/in/nicolai-bernsen/)**
 
 ---
 
@@ -13,7 +13,7 @@ After hours I'm building my own Jarvis: a voice assistant I talk to through my A
 - **Skaf**: a DIY partner for Denmark. It diagnoses the problem, plans the job and finds local prices to rent, buy or borrow the tools. *(private, testing with friends)*
 - **[backlogd](https://github.com/nicolai-bernsen/backlogd)**: a Claude Code plugin that turns Claude into a problem-driven scrum team. You file a problem; it scopes it, solves it, reviews its own work and ships the result.
 
-Want to build your own Jarvis? The open-source stack behind mine is on [my site](https://nicolai-bernsen.pages.dev).
+Want to build your own Jarvis? Start with open-source pieces like [whisper.cpp](https://github.com/ggml-org/whisper.cpp), [Ollama](https://github.com/ollama/ollama), [Home Assistant](https://github.com/home-assistant/core) and [MCP servers](https://github.com/modelcontextprotocol/servers).
 
 #### 🧰 Toolbelt
 
@@ -25,3 +25,7 @@ Want to build your own Jarvis? The open-source stack behind mine is on [my site]
 ![MCP](https://img.shields.io/badge/Agents%20%26%20MCP-1F2937?style=flat)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-18BCF2?style=flat&logo=homeassistant&logoColor=white)
+
+#### 📫 Connect
+
+Reach me at nicolai.bernsen@gmail.com
