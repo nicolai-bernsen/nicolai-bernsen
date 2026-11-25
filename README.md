@@ -13,7 +13,7 @@ it scopes it, solves it, reviews its own work, and ships the result back.
 
 **Jarvis**: my own voice assistant (MCP server on Cloudflare Workers, Obsidian
 vault as memory, Home Assistant for the house). The open-source stack behind it:
-[nicolai-bernsen-landing.vercel.app/build](https://nicolai-bernsen-landing.vercel.app/build).
+[nicolai-bernsen.pages.dev](https://nicolai-bernsen.pages.dev).
 
 #### 🧰 Toolbelt
 
@@ -26,7 +26,7 @@ vault as memory, Home Assistant for the house). The open-source stack behind it:
 
 #### 📫 Connect
 
-- **Website**: [nicolai-bernsen-landing.vercel.app](https://nicolai-bernsen-landing.vercel.app)
+- **Website**: [nicolai-bernsen.pages.dev](https://nicolai-bernsen.pages.dev)
 - **Instagram**: [@aitrendbench](https://www.instagram.com/aitrendbench/), new AI tools tested on real tasks
 - **LinkedIn** — [nicolai-bernsen](https://www.linkedin.com/in/nicolai-bernsen/)
 - **Email** — nicolai.bernsen@gmail.com
